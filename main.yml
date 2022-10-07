@@ -1,0 +1,6 @@
+---
+- hosts: nginx_servers
+  become: true
+  become_user: root
+  roles:
+    - nginx
